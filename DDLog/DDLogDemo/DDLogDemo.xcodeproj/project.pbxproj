@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6BF3061BB1045D00474C63 /* DDLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BF3051BB1045D00474C63 /* DDLogManager.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40E691BB00F7300ABD925 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40E681BB00F7300ABD925 /* main.m */; };
+		0FA40E6C1BB00F7300ABD925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40E6B1BB00F7300ABD925 /* AppDelegate.m */; };
+		0FA40E6F1BB00F7300ABD925 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40E6E1BB00F7300ABD925 /* ViewController.m */; };
+		0FA40E721BB00F7300ABD925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA40E701BB00F7300ABD925 /* Main.storyboard */; };
+		0FA40E741BB00F7300ABD925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA40E731BB00F7300ABD925 /* Assets.xcassets */; };
+		0FA40E771BB00F7300ABD925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA40E751BB00F7300ABD925 /* LaunchScreen.storyboard */; };
+		0FA40E821BB00F7300ABD925 /* DDLogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40E811BB00F7300ABD925 /* DDLogDemoTests.m */; };
+		0FA40E8D1BB00F7300ABD925 /* DDLogDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40E8C1BB00F7300ABD925 /* DDLogDemoUITests.m */; };
+		0FA40EB71BB00FF100ABD925 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40E9D1BB00FF100ABD925 /* CLIColor.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EB91BB00FF100ABD925 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EA11BB00FF100ABD925 /* DDAbstractDatabaseLogger.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EBA1BB00FF100ABD925 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EA31BB00FF100ABD925 /* DDASLLogCapture.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EBB1BB00FF100ABD925 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EA51BB00FF100ABD925 /* DDASLLogger.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EBC1BB00FF100ABD925 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EA81BB00FF100ABD925 /* DDFileLogger.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EBD1BB00FF100ABD925 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EAC1BB00FF100ABD925 /* DDLog.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EBE1BB00FF100ABD925 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EAF1BB00FF100ABD925 /* DDTTYLogger.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EBF1BB00FF100ABD925 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EB21BB00FF100ABD925 /* DDContextFilterLogFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EC01BB00FF100ABD925 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EB41BB00FF100ABD925 /* DDDispatchQueueLogFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EC11BB00FF100ABD925 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EB61BB00FF100ABD925 /* DDMultiFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		0FA40EC41BB0109A00ABD925 /* WJLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA40EC31BB0109A00ABD925 /* WJLogFormatter.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FA40E7E1BB00F7300ABD925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA40E5C1BB00F7300ABD925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA40E631BB00F7300ABD925;
+			remoteInfo = DDLogDemo;
+		};
+		0FA40E891BB00F7300ABD925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA40E5C1BB00F7300ABD925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA40E631BB00F7300ABD925;
+			remoteInfo = DDLogDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F6BF3041BB1045D00474C63 /* DDLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogManager.h; sourceTree = "<group>"; };
+		0F6BF3051BB1045D00474C63 /* DDLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLogManager.m; sourceTree = "<group>"; };
+		0FA40E641BB00F7300ABD925 /* DDLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA40E681BB00F7300ABD925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FA40E6A1BB00F7300ABD925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FA40E6B1BB00F7300ABD925 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FA40E6D1BB00F7300ABD925 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FA40E6E1BB00F7300ABD925 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FA40E711BB00F7300ABD925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FA40E731BB00F7300ABD925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FA40E761BB00F7300ABD925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FA40E781BB00F7300ABD925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FA40E7D1BB00F7300ABD925 /* DDLogDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDLogDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA40E811BB00F7300ABD925 /* DDLogDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDLogDemoTests.m; sourceTree = "<group>"; };
+		0FA40E831BB00F7300ABD925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FA40E881BB00F7300ABD925 /* DDLogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDLogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA40E8C1BB00F7300ABD925 /* DDLogDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDLogDemoUITests.m; sourceTree = "<group>"; };
+		0FA40E8E1BB00F7300ABD925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FA40E9C1BB00FF100ABD925 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		0FA40E9D1BB00FF100ABD925 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		0FA40E9E1BB00FF100ABD925 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		0FA40EA01BB00FF100ABD925 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		0FA40EA11BB00FF100ABD925 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		0FA40EA21BB00FF100ABD925 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		0FA40EA31BB00FF100ABD925 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		0FA40EA41BB00FF100ABD925 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		0FA40EA51BB00FF100ABD925 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		0FA40EA61BB00FF100ABD925 /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		0FA40EA71BB00FF100ABD925 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		0FA40EA81BB00FF100ABD925 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		0FA40EA91BB00FF100ABD925 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		0FA40EAA1BB00FF100ABD925 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		0FA40EAB1BB00FF100ABD925 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		0FA40EAC1BB00FF100ABD925 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		0FA40EAD1BB00FF100ABD925 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		0FA40EAE1BB00FF100ABD925 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		0FA40EAF1BB00FF100ABD925 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		0FA40EB11BB00FF100ABD925 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		0FA40EB21BB00FF100ABD925 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		0FA40EB31BB00FF100ABD925 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		0FA40EB41BB00FF100ABD925 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		0FA40EB51BB00FF100ABD925 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		0FA40EB61BB00FF100ABD925 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		0FA40EC21BB0109A00ABD925 /* WJLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLogFormatter.h; sourceTree = "<group>"; };
+		0FA40EC31BB0109A00ABD925 /* WJLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLogFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA40E611BB00F7300ABD925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA40E7A1BB00F7300ABD925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA40E851BB00F7300ABD925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6BF3071BB14A7100474C63 /* DDLog */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40EC21BB0109A00ABD925 /* WJLogFormatter.h */,
+				0FA40EC31BB0109A00ABD925 /* WJLogFormatter.m */,
+				0F6BF3041BB1045D00474C63 /* DDLogManager.h */,
+				0F6BF3051BB1045D00474C63 /* DDLogManager.m */,
+				0FA40E9A1BB00FF100ABD925 /* Classes */,
+			);
+			name = DDLog;
+			sourceTree = "<group>";
+		};
+		0FA40E5B1BB00F7300ABD925 = {
+			isa = PBXGroup;
+			children = (
+				0FA40E661BB00F7300ABD925 /* DDLogDemo */,
+				0FA40E801BB00F7300ABD925 /* DDLogDemoTests */,
+				0FA40E8B1BB00F7300ABD925 /* DDLogDemoUITests */,
+				0FA40E651BB00F7300ABD925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FA40E651BB00F7300ABD925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40E641BB00F7300ABD925 /* DDLogDemo.app */,
+				0FA40E7D1BB00F7300ABD925 /* DDLogDemoTests.xctest */,
+				0FA40E881BB00F7300ABD925 /* DDLogDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FA40E661BB00F7300ABD925 /* DDLogDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BF3071BB14A7100474C63 /* DDLog */,
+				0FA40E6A1BB00F7300ABD925 /* AppDelegate.h */,
+				0FA40E6B1BB00F7300ABD925 /* AppDelegate.m */,
+				0FA40E6D1BB00F7300ABD925 /* ViewController.h */,
+				0FA40E6E1BB00F7300ABD925 /* ViewController.m */,
+				0FA40E701BB00F7300ABD925 /* Main.storyboard */,
+				0FA40E731BB00F7300ABD925 /* Assets.xcassets */,
+				0FA40E751BB00F7300ABD925 /* LaunchScreen.storyboard */,
+				0FA40E781BB00F7300ABD925 /* Info.plist */,
+				0FA40E671BB00F7300ABD925 /* Supporting Files */,
+			);
+			path = DDLogDemo;
+			sourceTree = "<group>";
+		};
+		0FA40E671BB00F7300ABD925 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40E681BB00F7300ABD925 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FA40E801BB00F7300ABD925 /* DDLogDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40E811BB00F7300ABD925 /* DDLogDemoTests.m */,
+				0FA40E831BB00F7300ABD925 /* Info.plist */,
+			);
+			path = DDLogDemoTests;
+			sourceTree = "<group>";
+		};
+		0FA40E8B1BB00F7300ABD925 /* DDLogDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40E8C1BB00F7300ABD925 /* DDLogDemoUITests.m */,
+				0FA40E8E1BB00F7300ABD925 /* Info.plist */,
+			);
+			path = DDLogDemoUITests;
+			sourceTree = "<group>";
+		};
+		0FA40E9A1BB00FF100ABD925 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40E9B1BB00FF100ABD925 /* CLI */,
+				0FA40E9E1BB00FF100ABD925 /* CocoaLumberjack.h */,
+				0FA40EA01BB00FF100ABD925 /* DDAbstractDatabaseLogger.h */,
+				0FA40EA11BB00FF100ABD925 /* DDAbstractDatabaseLogger.m */,
+				0FA40EA21BB00FF100ABD925 /* DDASLLogCapture.h */,
+				0FA40EA31BB00FF100ABD925 /* DDASLLogCapture.m */,
+				0FA40EA41BB00FF100ABD925 /* DDASLLogger.h */,
+				0FA40EA51BB00FF100ABD925 /* DDASLLogger.m */,
+				0FA40EA61BB00FF100ABD925 /* DDAssertMacros.h */,
+				0FA40EA71BB00FF100ABD925 /* DDFileLogger.h */,
+				0FA40EA81BB00FF100ABD925 /* DDFileLogger.m */,
+				0FA40EA91BB00FF100ABD925 /* DDLegacyMacros.h */,
+				0FA40EAA1BB00FF100ABD925 /* DDLog+LOGV.h */,
+				0FA40EAB1BB00FF100ABD925 /* DDLog.h */,
+				0FA40EAC1BB00FF100ABD925 /* DDLog.m */,
+				0FA40EAD1BB00FF100ABD925 /* DDLogMacros.h */,
+				0FA40EAE1BB00FF100ABD925 /* DDTTYLogger.h */,
+				0FA40EAF1BB00FF100ABD925 /* DDTTYLogger.m */,
+				0FA40EB01BB00FF100ABD925 /* Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0FA40E9B1BB00FF100ABD925 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40E9C1BB00FF100ABD925 /* CLIColor.h */,
+				0FA40E9D1BB00FF100ABD925 /* CLIColor.m */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		0FA40EB01BB00FF100ABD925 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0FA40EB11BB00FF100ABD925 /* DDContextFilterLogFormatter.h */,
+				0FA40EB21BB00FF100ABD925 /* DDContextFilterLogFormatter.m */,
+				0FA40EB31BB00FF100ABD925 /* DDDispatchQueueLogFormatter.h */,
+				0FA40EB41BB00FF100ABD925 /* DDDispatchQueueLogFormatter.m */,
+				0FA40EB51BB00FF100ABD925 /* DDMultiFormatter.h */,
+				0FA40EB61BB00FF100ABD925 /* DDMultiFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FA40E631BB00F7300ABD925 /* DDLogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA40E911BB00F7300ABD925 /* Build configuration list for PBXNativeTarget "DDLogDemo" */;
+			buildPhases = (
+				0FA40E601BB00F7300ABD925 /* Sources */,
+				0FA40E611BB00F7300ABD925 /* Frameworks */,
+				0FA40E621BB00F7300ABD925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDLogDemo;
+			productName = DDLogDemo;
+			productReference = 0FA40E641BB00F7300ABD925 /* DDLogDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FA40E7C1BB00F7300ABD925 /* DDLogDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA40E941BB00F7300ABD925 /* Build configuration list for PBXNativeTarget "DDLogDemoTests" */;
+			buildPhases = (
+				0FA40E791BB00F7300ABD925 /* Sources */,
+				0FA40E7A1BB00F7300ABD925 /* Frameworks */,
+				0FA40E7B1BB00F7300ABD925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA40E7F1BB00F7300ABD925 /* PBXTargetDependency */,
+			);
+			name = DDLogDemoTests;
+			productName = DDLogDemoTests;
+			productReference = 0FA40E7D1BB00F7300ABD925 /* DDLogDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FA40E871BB00F7300ABD925 /* DDLogDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA40E971BB00F7300ABD925 /* Build configuration list for PBXNativeTarget "DDLogDemoUITests" */;
+			buildPhases = (
+				0FA40E841BB00F7300ABD925 /* Sources */,
+				0FA40E851BB00F7300ABD925 /* Frameworks */,
+				0FA40E861BB00F7300ABD925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA40E8A1BB00F7300ABD925 /* PBXTargetDependency */,
+			);
+			name = DDLogDemoUITests;
+			productName = DDLogDemoUITests;
+			productReference = 0FA40E881BB00F7300ABD925 /* DDLogDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FA40E5C1BB00F7300ABD925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = qhfax;
+				TargetAttributes = {
+					0FA40E631BB00F7300ABD925 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JHA85WF3AT;
+					};
+					0FA40E7C1BB00F7300ABD925 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0FA40E631BB00F7300ABD925;
+					};
+					0FA40E871BB00F7300ABD925 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0FA40E631BB00F7300ABD925;
+					};
+				};
+			};
+			buildConfigurationList = 0FA40E5F1BB00F7300ABD925 /* Build configuration list for PBXProject "DDLogDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FA40E5B1BB00F7300ABD925;
+			productRefGroup = 0FA40E651BB00F7300ABD925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA40E631BB00F7300ABD925 /* DDLogDemo */,
+				0FA40E7C1BB00F7300ABD925 /* DDLogDemoTests */,
+				0FA40E871BB00F7300ABD925 /* DDLogDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FA40E621BB00F7300ABD925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA40E771BB00F7300ABD925 /* LaunchScreen.storyboard in Resources */,
+				0FA40E741BB00F7300ABD925 /* Assets.xcassets in Resources */,
+				0FA40E721BB00F7300ABD925 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA40E7B1BB00F7300ABD925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA40E861BB00F7300ABD925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA40E601BB00F7300ABD925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA40EBD1BB00FF100ABD925 /* DDLog.m in Sources */,
+				0FA40EC01BB00FF100ABD925 /* DDDispatchQueueLogFormatter.m in Sources */,
+				0F6BF3061BB1045D00474C63 /* DDLogManager.m in Sources */,
+				0FA40EC41BB0109A00ABD925 /* WJLogFormatter.m in Sources */,
+				0FA40EBB1BB00FF100ABD925 /* DDASLLogger.m in Sources */,
+				0FA40EB71BB00FF100ABD925 /* CLIColor.m in Sources */,
+				0FA40E6F1BB00F7300ABD925 /* ViewController.m in Sources */,
+				0FA40EBE1BB00FF100ABD925 /* DDTTYLogger.m in Sources */,
+				0FA40EBA1BB00FF100ABD925 /* DDASLLogCapture.m in Sources */,
+				0FA40EB91BB00FF100ABD925 /* DDAbstractDatabaseLogger.m in Sources */,
+				0FA40E6C1BB00F7300ABD925 /* AppDelegate.m in Sources */,
+				0FA40EC11BB00FF100ABD925 /* DDMultiFormatter.m in Sources */,
+				0FA40EBF1BB00FF100ABD925 /* DDContextFilterLogFormatter.m in Sources */,
+				0FA40EBC1BB00FF100ABD925 /* DDFileLogger.m in Sources */,
+				0FA40E691BB00F7300ABD925 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA40E791BB00F7300ABD925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA40E821BB00F7300ABD925 /* DDLogDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA40E841BB00F7300ABD925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA40E8D1BB00F7300ABD925 /* DDLogDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FA40E7F1BB00F7300ABD925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA40E631BB00F7300ABD925 /* DDLogDemo */;
+			targetProxy = 0FA40E7E1BB00F7300ABD925 /* PBXContainerItemProxy */;
+		};
+		0FA40E8A1BB00F7300ABD925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA40E631BB00F7300ABD925 /* DDLogDemo */;
+			targetProxy = 0FA40E891BB00F7300ABD925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FA40E701BB00F7300ABD925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FA40E711BB00F7300ABD925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FA40E751BB00F7300ABD925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FA40E761BB00F7300ABD925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FA40E8F1BB00F7300ABD925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FA40E901BB00F7300ABD925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FA40E921BB00F7300ABD925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DDLogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhrt.qhfax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0FA40E931BB00F7300ABD925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DDLogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhrt.qhfax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0FA40E951BB00F7300ABD925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DDLogDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.DDLogDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDLogDemo.app/DDLogDemo";
+			};
+			name = Debug;
+		};
+		0FA40E961BB00F7300ABD925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DDLogDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.DDLogDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDLogDemo.app/DDLogDemo";
+			};
+			name = Release;
+		};
+		0FA40E981BB00F7300ABD925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DDLogDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.DDLogDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DDLogDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0FA40E991BB00F7300ABD925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DDLogDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.DDLogDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DDLogDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA40E5F1BB00F7300ABD925 /* Build configuration list for PBXProject "DDLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA40E8F1BB00F7300ABD925 /* Debug */,
+				0FA40E901BB00F7300ABD925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA40E911BB00F7300ABD925 /* Build configuration list for PBXNativeTarget "DDLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA40E921BB00F7300ABD925 /* Debug */,
+				0FA40E931BB00F7300ABD925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA40E941BB00F7300ABD925 /* Build configuration list for PBXNativeTarget "DDLogDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA40E951BB00F7300ABD925 /* Debug */,
+				0FA40E961BB00F7300ABD925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA40E971BB00F7300ABD925 /* Build configuration list for PBXNativeTarget "DDLogDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA40E981BB00F7300ABD925 /* Debug */,
+				0FA40E991BB00F7300ABD925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FA40E5C1BB00F7300ABD925 /* Project object */;
+}
